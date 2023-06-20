@@ -75,7 +75,10 @@ class sberPayment {
 		}
 
 
-$res = '{"orderId":"70906e55-7114-41d6-8332-4609dc6590f4","formUrl":"https://3dsec.sberbank.ru/payment/merchants/test/payment_ru.html?mdOrder=70906e55-7114-41d6-8332-4609dc6590f4"}';
+//================ DEBUG ==================
+//================ DEBUG ==================
+//================ DEBUG ==================
+//$res = '{"orderId":"70906e55-7114-41d6-8332-4609dc6590f4","formUrl":"https://3dsec.sberbank.ru/payment/merchants/test/payment_ru.html?mdOrder=70906e55-7114-41d6-8332-4609dc6590f4"}';
 
 		$resArray = json_decode($res,true);
 
